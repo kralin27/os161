@@ -98,10 +98,10 @@ boot(void)
 
 	kprintf("\n");
 	kprintf("OS/161 base system version %s\n", BASE_VERSION);
-	kprintf("%s", harvard_copyright);
+	kprintf("%s", harvard_copyright); 
 	kprintf("\n");
 
-	kprintf("Put-your-group-name-here's system version %s (%s #%d)\n", 
+	kprintf("Lindsey Kramer's system version %s (%s #%d)\n", 
 		GROUP_VERSION, buildconfig, buildversion);
 	kprintf("\n");
 
